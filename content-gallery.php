@@ -17,9 +17,9 @@
 			<h3 class="entry-format"><?php _e( 'Gallery', 'twentyeleven' ); ?></h3>
 		</hgroup>
 
-		<div class="entry-meta">
+		<div class="post-meta">
 			<?php twentyeleven_posted_on(); ?>
-		</div><!-- .entry-meta -->
+		</div><!-- .post-meta -->
 	</header><!-- .entry-header -->
 
 	<?php if ( is_search() ) : // Only display Excerpts for search pages ?>
@@ -55,7 +55,7 @@
 	</div><!-- .entry-content -->
 	<?php endif; ?>
 
-	<footer class="entry-meta">
+	<footer class="post-meta">
 		<?php $show_sep = false; ?>
 		<?php
 			/* translators: used between list items, there is a space after the comma */
@@ -88,5 +88,5 @@
 		<?php endif; // End if comments_open() ?>
 
 		<?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
-	</footer><!-- #entry-meta -->
+	</footer><!-- #post-meta -->
 </article><!-- #post-<?php the_ID(); ?> -->

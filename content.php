@@ -20,9 +20,9 @@
 			<?php endif; ?>
 
 			<?php if ( 'post' == get_post_type() ) : ?>
-			<div class="entry-meta">
+			<div class="post-meta">
 				<?php twentyeleven_posted_on(); ?>
-			</div><!-- .entry-meta -->
+			</div><!-- .post-meta -->
 			<?php endif; ?>
 
 			<?php if ( comments_open() && ! post_password_required() ) : ?>
@@ -43,7 +43,7 @@
 		</div><!-- .entry-content -->
 		<?php endif; ?>
 
-		<footer class="entry-meta">
+		<footer class="post-meta">
 			<?php $show_sep = false; ?>
 			<?php if ( 'post' == get_post_type() ) : // Hide category and tag text for pages on Search ?>
 			<?php
@@ -78,5 +78,5 @@
 			<?php endif; // End if comments_open() ?>
 
 			<?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
-		</footer><!-- #entry-meta -->
+		</footer><!-- #post-meta -->
 	</article><!-- #post-<?php the_ID(); ?> -->

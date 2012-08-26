@@ -28,8 +28,8 @@
 			<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?>
 		</div><!-- .entry-content -->
 
-		<footer class="entry-meta">
-			<div class="entry-meta">
+		<footer class="post-meta">
+			<div class="post-meta">
 				<?php
 					printf( __( '<a href="%1$s" rel="bookmark"><time class="entry-date" datetime="%2$s" pubdate>%3$s</time></a><span class="by-author"> <span class="sep"> by </span> <span class="author vcard"><a class="url fn n" href="%4$s" title="%5$s" rel="author">%6$s</a></span></span>', 'twentyeleven' ),
 						esc_url( get_permalink() ),
@@ -40,8 +40,8 @@
 						get_the_author()
 					);
 				?>
-			</div><!-- .entry-meta -->
-			<div class="entry-meta">
+			</div><!-- .post-meta -->
+			<div class="post-meta">
 				<?php
 					/* translators: used between list items, there is a space after the comma */
 					$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );
@@ -63,8 +63,8 @@
 				<?php if ( comments_open() ) : ?>
 				<span class="comments-link"><?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a reply', 'twentyeleven' ) . '</span>', __( '<b>1</b> Reply', 'twentyeleven' ), __( '<b>%</b> Replies', 'twentyeleven' ) ); ?></span>
 				<?php endif; // End if comments_open() ?>
-			</div><!-- .entry-meta -->
+			</div><!-- .post-meta -->
 
 			<?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
-		</footer><!-- #entry-meta -->
+		</footer><!-- #post-meta -->
 	</article><!-- #post-<?php the_ID(); ?> -->

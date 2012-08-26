@@ -13,9 +13,9 @@
 		<h2 class="entry-title"><?php the_title(); ?></h2>
 
 		<?php if ( 'post' == get_post_type() ) : ?>
-		<div class="entry-meta">
+		<div class="post-meta">
 			<?php twentyeleven_posted_on(); ?>
-		</div><!-- .entry-meta -->
+		</div><!-- .post-meta -->
 		<?php endif; ?>
 	</header><!-- .entry-header -->
 
@@ -24,7 +24,7 @@
 		<?php wp_link_pages( array( 'before' => '<div class="page-link"><span>' . __( 'Pages:', 'twentyeleven' ) . '</span>', 'after' => '</div>' ) ); ?>
 	</div><!-- .entry-content -->
 
-	<footer class="entry-meta">
+	<footer class="post-meta">
 		<?php
 			/* translators: used between list items, there is a space after the comma */
 			$categories_list = get_the_category_list( __( ', ', 'twentyeleven' ) );
@@ -67,5 +67,5 @@
 			</div><!-- #author-description -->
 		</div><!-- #author-info -->
 		<?php endif; ?>
-	</footer><!-- .entry-meta -->
+	</footer><!-- .post-meta -->
 </article><!-- #post-<?php the_ID(); ?> -->

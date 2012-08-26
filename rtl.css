@@ -42,7 +42,7 @@ body {
 }
 
 /* Simplify the pullquotes and pull styles */
-.one-column.singular .entry-meta .edit-link a {
+.one-column.singular .post-meta .edit-link a {
 	right: 0px;
 	left: auto;
 }
@@ -164,7 +164,7 @@ input#s {
 /* =Content
 ----------------------------------------------- */
 .entry-title,
-.entry-header .entry-meta {
+.entry-header .post-meta {
 	padding-right: 0;
 	padding-left: 76px;
 }
@@ -176,7 +176,7 @@ input#s {
 	margin-right: 0;
 	margin-left: 6px;
 }
-.entry-meta .edit-link a {
+.post-meta .edit-link a {
 	float: left;
 }
 /* Images */
@@ -224,14 +224,14 @@ input#s {
 	Post Formats Headings
 */
 .singular .entry-title,
-.singular .entry-header .entry-meta {
+.singular .entry-header .post-meta {
 	padding-left: 0;
 }
-.singular .entry-header .entry-meta {
+.singular .entry-header .post-meta {
 	left: auto;
 	right: 0;
 }
-.singular .entry-meta .edit-link a {
+.singular .post-meta .edit-link a {
 	left: auto;
 	right: 50px;
 }
@@ -258,7 +258,7 @@ input#s {
 /* =Image
 ----------------------------------------------- */
 
-.indexed.format-image div.entry-meta {
+.indexed.format-image div.post-meta {
 	float: right;
 }
 /* =error404
@@ -504,7 +504,7 @@ section.recent-posts .other-recent-posts .comments-link > span {
 	article.feature-image.small .entry-summary p a {
 		right: 0;
 	}
-	.singular .entry-meta .edit-link a {
+	.singular .post-meta .edit-link a {
 		left: auto;
 		right: 0px;
 	}

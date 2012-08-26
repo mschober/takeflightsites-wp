@@ -58,24 +58,6 @@ get_header(); ?>
 				</article><!-- #post-0 -->
 
 			<?php endif; ?>
-                            <div class="post">
-                                <h2><a href="#">Home</a></h2>
-                                <p class="postmeta">Posted in <a href="#">Class apent</a> | Sep 20, 2019 | <a href="#">4 comments</a></p>
-                                <div class="entry">
-                                    <img class="left" src="images/img2.jpg" alt="" />
-                                    <p>The template is released under <a href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution</a> license, so are the images provided by <a href="http://fotogrph.com/">Fotogrph.com</a>. It means you can use this template for personal or commercial purposes, modify it or redistribute as long as you keep the credit links in the footer.</p>
-                                    <p>Under no circumstances can you use the template for websites with illegal or immoral (even if legal) content. This includes, but is not limited to pornography, obscenity, homosexuality, abortion, violence, drugs, gambling... <a href="#">more</a></p>
-                                </div>
-                            </div><!-- post -->
-                            <div class="post">
-                                <h2><a href="#">Lorem ipsum dolor sit amet</a></h2>
-                                <p class="postmeta">Posted in <a href="#">Lorem ipsum</a> | Sep 19, 2019 | <a href="#">2 comments</a></p>
-                                <div class="entry">
-                                    <img class="left" src="images/img3.jpg" alt="" />
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean nec dui quis urna sollicitudin sodales. Fusce laoreet, ligula et rhoncus volutpat, felis magna varius tortor, ac molestie diam lorem in lectus. Aliquam venenatis mollis est, a porttitor ipsum interdum nec. Vestibulum sed risus ac nulla viverra pharetra.</p>
-                                    <p>Quisque congue lacus sed odio fermentum tincidunt. Proin vitae nulla velit. Cras consectetur commodo scelerisque. Curabitur leo nisl, blandit at tempus et, interdum at risus. Sed dui augue, pellentesque ac pulvinar id, malesuada eget diam. Integer elementum sem eget tortor faucibus id pellentesque lorem dignissim... <a href="#">more</a></p>
-                                </div>
-                            </div><!-- post -->
                         </div><!-- content -->
                         <div id="sidebar">
                             <h2>Quisque luctus</h2>

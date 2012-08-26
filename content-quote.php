@@ -15,9 +15,9 @@
 				<h3 class="entry-format"><?php _e( 'Quote', 'twentyeleven' ); ?></h3>
 			</hgroup>
 
-			<div class="entry-meta">
+			<div class="post-meta">
 				<?php twentyeleven_posted_on(); ?>
-			</div><!-- .entry-meta -->
+			</div><!-- .post-meta -->
 
 			<?php if ( comments_open() && ! post_password_required() ) : ?>
 			<div class="comments-link">
@@ -37,7 +37,7 @@
 		</div><!-- .entry-content -->
 		<?php endif; ?>
 
-		<footer class="entry-meta">
+		<footer class="post-meta">
 			<?php $show_sep = false; ?>
 			<?php
 				/* translators: used between list items, there is a space after the comma */
@@ -70,5 +70,5 @@
 			<?php endif; // End if comments_open() ?>
 
 			<?php edit_post_link( __( 'Edit', 'twentyeleven' ), '<span class="edit-link">', '</span>' ); ?>
-		</footer><!-- #entry-meta -->
+		</footer><!-- #post-meta -->
 	</article><!-- #post-<?php the_ID(); ?> -->

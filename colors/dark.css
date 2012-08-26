@@ -103,7 +103,7 @@ a {
 .entry-title a:focus,
 .entry-title a:active {
 }
-.entry-meta {
+.post-meta {
 	color: #999;
 }
 .entry-content h1,
@@ -134,13 +134,13 @@ a {
 	background: #999;
 	color: #000;
 }
-.entry-meta .edit-link a {
+.post-meta .edit-link a {
 	background: #242424;
 	color: #bbb;
 }
-.entry-meta .edit-link a:hover,
-.entry-meta .edit-link a:focus,
-.entry-meta .edit-link a:active {
+.post-meta .edit-link a:hover,
+.post-meta .edit-link a:focus,
+.post-meta .edit-link a:active {
 	background: #999;
 	color: #000;
 }
@@ -243,10 +243,10 @@ a:active img[class*="wp-image-"] {
 .indexed.format-image .wp-caption {
 	background: #242424;
 }
-.indexed.format-image .entry-meta .edit-link a {
+.indexed.format-image .post-meta .edit-link a {
 	color: #ddd;
 }
-.indexed.format-image .entry-meta .edit-link a:hover {
+.indexed.format-image .post-meta .edit-link a:hover {
 	color: #fff;
 }
 
