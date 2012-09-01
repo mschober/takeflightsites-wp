@@ -84,4 +84,4 @@
 		    <div id='intro'>
 			    <?php if ( is_home() ) echo "<div id='intro2'></div>"; ?> 
 		    </div>
-		    <div id='main'><div id='main2'><div id='main3'>
+		    <div id='main'><?php if( is_home() ) echo "<div id='main2'>"; ?><div id='main3'>
