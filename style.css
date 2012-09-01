@@ -133,6 +133,11 @@ a:hover {
     background: #252627;
 }
 
+#home-main-bar {
+    height: 34px;
+    background: url('images/main2.jpg') no-repeat top;
+}
+
 /* main */
 
 #main {
@@ -140,7 +145,6 @@ a:hover {
 }
 
 #main2 {
-    background: url('images/main2.jpg') no-repeat top;
 }
 
 #main3 {

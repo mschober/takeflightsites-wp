@@ -84,4 +84,5 @@
 		    <div id='intro'>
 			    <?php if ( is_home() ) echo "<div id='intro2'></div>"; ?> 
 		    </div>
+		    <?php if( is_home() ) echo "<div id='home-main-bar'></div>"; ?>
 		    <div id='main'><?php if( is_home() ) echo "<div id='main2'>"; ?><div id='main3'>
