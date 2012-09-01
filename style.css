@@ -240,6 +240,11 @@ img.right {
     overflow: hidden;
 }
 
+/* comments */
+#comments {
+    padding: 1em 4em;
+}
+
 /* footer */
 
 #footer {
