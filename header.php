@@ -69,3 +69,15 @@
 </head>
 
 <body <?php body_class(); ?>>
+  <div id="page"><div id="page2"> 
+            <div id="header"> 
+                <h1><a href="index.html">Take Flight</a></h1> 
+            </div> 
+            <div id="menu"> 
+                <ul> 
+                    <li><a href="index.html">Home</a></li> 
+                    <li><a href="about.html">About</a></li> 
+                    <li><a href="contact.html">Contact</a></li> 
+                    <li><a href="pricing.html">Pricing</a></li> 
+                </ul> 
+            </div><!-- end menu -->

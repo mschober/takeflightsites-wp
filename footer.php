@@ -10,6 +10,25 @@
  */
 ?>
 
+				   <div id="footer"> 
+					<p> 
+						Copyright &copy; 2012,  
+						<a href="http://www.takeflightsites.com">TakeFlightSites</a> |  
+						<a href="http://www.webtemplateocean.com/">WebTemplateOcean</a> |  
+						<a href="http://fotogrph.com/">Fotogrph</a> |  
+						<a href="#">Privacy Policy</a> 
+						<?php do_action( 'twentyeleven_credits' ); ?> |  
+						<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>"  
+							title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>"  
+							rel="generator"> 
+							WordPress 
+						</a> 
+					</p> 
+				    </div><!-- end footer --> 
+			    </div></div><!-- page --><!-- page2 --> 
+			</div><!-- #content --> 
+		</div><!-- #primary --> 
+
 	</div><!-- #main -->
 
 	<footer id="colophon" role="contentinfo">

@@ -93,9 +93,3 @@
                         </div><!-- sidebar -->
                         <div class="clearing">&nbsp;</div>   
             </div></div></div><!-- main --><!-- main2 --><!-- main3 -->
-            <div id="footer">
-                <p>Copyright &copy; 2012, designed by <a href="#">Take Flight Sites</a> | <a href="http://www.webtemplateocean.com/">WebTemplateOcean</a> | <a href="http://fotogrph.com/">Fotogrph</a>
-            </div>
-    </div></div><!-- page --><!-- page2 -->
-</body>
-</html>

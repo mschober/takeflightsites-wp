@@ -13,21 +13,7 @@
  */
 
 get_header(); ?>
-
-    <div id="page"><div id="page2">
-            <div id="header">
-                <h1><a href="index.html">Take Flight</a></h1>
-            </div>
-            <div id="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-		    <li><a href="pricing.html">Pricing</a></li>
-                </ul>
-            </div>
-            <div id="intro"><div id="intro2">
-
+	    <div id="intro"><div id="intro2">  
             </div></div> 
             <div id="main"><div id="main2"><div id="main3">
                         <div id="content">
@@ -62,27 +48,4 @@ get_header(); ?>
 			<?php get_sidebar(); ?>
                         <div class="clearing">&nbsp;</div>   
             </div></div></div><!-- main --><!-- main2 --><!-- main3 -->
-            <div id="footer">
-                <p>
-			Copyright &copy; 2012, 
-			<a href="http://www.takeflightsites.com">TakeFlightSites</a> | 
-			<a href="http://www.webtemplateocean.com/">WebTemplateOcean</a> | 
-			<a href="http://fotogrph.com/">Fotogrph</a> | 
-			<a href="#">Privacy Policy</a>
-			<?php do_action( 'twentyeleven_credits' ); ?> | 
-                        <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" 
-				title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" 
-				rel="generator">
-				WordPress
-			</a>
-		</p>
-            </div><!-- end footer -->
-    </div></div><!-- page --><!-- page2 -->
-
 <?php get_footer(); ?>
-
-			</div><!-- #content -->
-		</div><!-- #primary -->
-
-</body>
-</html>
