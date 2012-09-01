@@ -63,14 +63,26 @@ get_header(); ?>
                         <div class="clearing">&nbsp;</div>   
             </div></div></div><!-- main --><!-- main2 --><!-- main3 -->
             <div id="footer">
-                <p>Copyright &copy; 2012, designed by <a href="http://www.webtemplateocean.com/">WebTemplateOcean.com</a>, photos from <a href="http://fotogrph.com/">Fotogrph.com</a> | <a href="#">Privacy Policy</a></p>
-            </div>
+                <p>
+			Copyright &copy; 2012, 
+			<a href="http://www.takeflightsites.com">TakeFlightSites</a> | 
+			<a href="http://www.webtemplateocean.com/">WebTemplateOcean</a> | 
+			<a href="http://fotogrph.com/">Fotogrph</a> | 
+			<a href="#">Privacy Policy</a>
+			<?php do_action( 'twentyeleven_credits' ); ?> | 
+                        <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>" 
+				title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>" 
+				rel="generator">
+				WordPress
+			</a>
+		</p>
+            </div><!-- end footer -->
     </div></div><!-- page --><!-- page2 -->
 
+<?php get_footer(); ?>
 
 			</div><!-- #content -->
 		</div><!-- #primary -->
 
-<?php get_footer(); ?>
 </body>
 </html>
