@@ -59,28 +59,7 @@ get_header(); ?>
 
 			<?php endif; ?>
                         </div><!-- content -->
-                        <div id="sidebar">
-                            <h2>Quisque luctus</h2>
-                            <ul>
-                                <li><a href="#">Fusce laoreet, ligula et rhoncus</a></li>
-                                <li><a href="#">Adipiscing gravida pulvinar eget</a></li>
-                                <li><a href="#">Cras consectetur commodo</a></li>
-                                <li><a href="#">Vulputate aliquam ipsum dictum</a></li>
-                                <li><a href="#">Vestibulum imperdiet accumsan</a></li>
-                            </ul>
-                            <h2>Integer rhoncus</h2>
-                            <div class="boxtxt">
-                                <p>Mauris sollicitudin tincidunt magna vitae semper. Curabitur ut pharetra quam. Integer rhoncus convallis urna vitae mattis. Sed pharetra massa ac metus fermentum et iaculis enim accumsan.</p>
-                            </div>
-                            <h2>Mauris sagittis</h2>
-                            <ul>
-                                <li><a href="#">Suspendisse faucibus purus</a></li>
-                                <li><a href="#">Tincidunt nec accumsan</a></li>
-                                <li><a href="#">Fusce laoreet, ligula et rhoncus</a></li>
-                                <li><a href="#">Adipiscing gravida pulvinar eget</a></li>
-                                <li><a href="#">Cras consectetur commodo</a></li>
-                            </ul>
-                        </div><!-- sidebar -->
+			<?php get_sidebar(); ?>
                         <div class="clearing">&nbsp;</div>   
             </div></div></div><!-- main --><!-- main2 --><!-- main3 -->
             <div id="footer">
@@ -92,7 +71,6 @@ get_header(); ?>
 			</div><!-- #content -->
 		</div><!-- #primary -->
 
-<?php get_sidebar(); ?>
 <?php get_footer(); ?>
 </body>
 </html>
