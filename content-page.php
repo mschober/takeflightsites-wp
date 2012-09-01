@@ -25,4 +25,3 @@
 </div><!-- content -->
 </div><?php get_sidebar(); ?>
 		<div class="clearing">&nbsp;</div>   
-            </div></div></div><!-- main --><!-- main2 --><!-- main3 -->

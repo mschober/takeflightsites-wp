@@ -10,43 +10,37 @@
  */
 ?>
 
-				   <div id="footer"> 
-					<p> 
-						Copyright &copy; 2012,  
-						<a href="http://www.takeflightsites.com">TakeFlightSites</a> |  
-						<a href="http://www.webtemplateocean.com/">WebTemplateOcean</a> |  
-						<a href="http://fotogrph.com/">Fotogrph</a> |  
-						<a href="#">Privacy Policy</a> 
-						<?php do_action( 'twentyeleven_credits' ); ?> |  
-						<a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>"  
-							title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>"  
-							rel="generator"> 
-							WordPress 
-						</a> 
-					</p> 
-				    </div><!-- end footer --> 
-			    </div></div><!-- page --><!-- page2 --> 
-			</div><!-- #content --> 
-		</div><!-- #primary --> 
+</div><?php if( is_home() ) echo "</div>"; ?></div><!-- main --><!-- main2 --><!-- main3 -->
+   <div id="footer"> 
+    <p> 
+        Copyright &copy; 2012,  
+        <a href="http://www.takeflightsites.com">TakeFlightSites</a> |  
+        <a href="http://www.webtemplateocean.com/">WebTemplateOcean</a> |  
+        <a href="http://fotogrph.com/">Fotogrph</a> |  
+        <a href="#">Privacy Policy</a> 
+        <?php do_action( 'twentyeleven_credits' ); ?> |  
+        <a href="<?php echo esc_url( __( 'http://wordpress.org/', 'twentyeleven' ) ); ?>"  
+            title="<?php esc_attr_e( 'Semantic Personal Publishing Platform', 'twentyeleven' ); ?>"  
+            rel="generator"> 
+            WordPress 
+        </a> 
+    </p> 
+    </div><!-- end footer --> 
 
-	</div><!-- #main -->
+    <footer id="colophon" role="contentinfo">
 
-	<footer id="colophon" role="contentinfo">
+            <?php
+                /* A sidebar in the footer? Yep. You can can customize
+                 * your footer with three columns of widgets.
+                 */
+                if ( ! is_404() )
+                    get_sidebar( 'footer' );
+            ?>
 
-			<?php
-				/* A sidebar in the footer? Yep. You can can customize
-				 * your footer with three columns of widgets.
-				 */
-				if ( ! is_404() )
-					get_sidebar( 'footer' );
-			?>
-
-			<div id="site-generator">
-			</div>
-	</footer><!-- #colophon -->
+            <div id="site-generator">
+            </div>
+    </footer><!-- #colophon -->
 </div><!-- #page -->
-
 <?php wp_footer(); ?>
-
 </body>
 </html>
