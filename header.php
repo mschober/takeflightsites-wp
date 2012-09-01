@@ -75,9 +75,13 @@
             </div> 
             <div id="menu"> 
                 <ul> 
-                    <li><a href="index.html">Home</a></li> 
-                    <li><a href="about.html">About</a></li> 
-                    <li><a href="contact.html">Contact</a></li> 
-                    <li><a href="pricing.html">Pricing</a></li> 
+                    <li><a href="<?php echo home_url(); ?>">Home</a></li> 
+                    <li><a href="about">About</a></li> 
+                    <li><a href="contact">Contact</a></li> 
+                    <li><a href="pricing">Pricing</a></li> 
                 </ul> 
             </div><!-- end menu -->
+		    <div id='intro'>
+			    <?php if ( is_home() ) echo "<div id='intro2'></div>"; ?> 
+		    </div>
+		    <div id='main'><div id='main2'><div id='main3'>
