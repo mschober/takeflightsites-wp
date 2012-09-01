@@ -57,6 +57,9 @@ a:hover {
 #page {
     width: 100%;
     min-width: 980px;
+}
+
+#page.home  {
     background: url('images/page.gif') repeat-x;
 }
 
