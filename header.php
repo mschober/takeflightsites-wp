@@ -71,7 +71,7 @@
 <body <?php body_class(); ?>>
   <div id="page" <?php if( is_home() ) echo "class='home'"; ?>>><div id="page2"> 
             <div id="header"> 
-                <h1><a href="index.html">Take Flight</a></h1> 
+                <h1><a href="<?php home_url(); ?>">Take Flight</a></h1> 
             </div> 
             <div id="menu"> 
                 <ul> 
