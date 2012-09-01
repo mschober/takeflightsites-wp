@@ -35,8 +35,7 @@ if ( 'content' != $current_layout ) :
                                 <li><a href="#">Cras consectetur commodo</a></li>
                             </ul>
                         </div><!-- sidebar -->
-		<div id="content">
-			<div class="left-padded">
+		<div id="content" class="left-padded">
 			<?php if ( ! dynamic_sidebar( 'sidebar-1' ) ) : ?>
 
 				<aside id="archives" class="widget">
@@ -56,7 +55,6 @@ if ( 'content' != $current_layout ) :
 				</aside>
 
 			<?php endif; // end sidebar widget area ?>
-			</div><!-- end left-padded -->
 		</div><!-- end content -->
 	<!-- 	</div>#secondary .widget-area -->
 <?php endif; ?>

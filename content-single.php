@@ -8,26 +8,8 @@
  */
 ?>
 
-    <div id="page"><div id="page2">
-            <div id="header">
-                <h1><a href="index.html">Take Flight</a></h1>
-            </div>
-            <div id="menu">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="about.html">About</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-		    <li><a href="pricing.html">Pricing</a></li>
-                </ul>
-            </div>
-            <div id="intro">
-		<div id="intro-collapsed"></div>
-	    </div>
-            <div id="main"><div id="main2"><div id="main3">
-                        <div id="content">
-                            <div class="post">
 
-
+<div id="content" class="left-padded">
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
 		<h2 class="entry-title"><?php the_title(); ?></h2>
@@ -89,35 +71,6 @@
 		<?php endif; ?>
 	</footer><!-- .post-meta -->
 </article><!-- #post-<?php the_ID(); ?> -->
-                            </div><!-- post -->
                         </div><!-- content -->
-                        <div id="sidebar">
-                            <h2>Quisque luctus</h2>
-                            <ul>
-                                <li><a href="#">Fusce laoreet, ligula et rhoncus</a></li>
-                                <li><a href="#">Adipiscing gravida pulvinar eget</a></li>
-                                <li><a href="#">Cras consectetur commodo</a></li>
-                                <li><a href="#">Vulputate aliquam ipsum dictum</a></li>
-                                <li><a href="#">Vestibulum imperdiet accumsan</a></li>
-                            </ul>
-                            <h2>Integer rhoncus</h2>
-                            <div class="boxtxt">
-                                <p>Mauris sollicitudin tincidunt magna vitae semper. Curabitur ut pharetra quam. Integer rhoncus convallis urna vitae mattis. Sed pharetra massa ac metus fermentum et iaculis enim accumsan.</p>
-                            </div>
-                            <h2>Mauris sagittis</h2>
-                            <ul>
-                                <li><a href="#">Suspendisse faucibus purus</a></li>
-                                <li><a href="#">Tincidunt nec accumsan</a></li>
-                                <li><a href="#">Fusce laoreet, ligula et rhoncus</a></li>
-                                <li><a href="#">Adipiscing gravida pulvinar eget</a></li>
-                                <li><a href="#">Cras consectetur commodo</a></li>
-                            </ul>
-                        </div><!-- sidebar -->
+<?php get_sidebar(); ?>
                         <div class="clearing">&nbsp;</div>   
-            </div></div></div><!-- main --><!-- main2 --><!-- main3 -->
-            <div id="footer">
-                <p>Copyright &copy; 2012, designed by <a href="#">Take Flight Sites</a> | <a href="http://www.webtemplateocean.com/">WebTemplateOcean</a> | <a href="http://fotogrph.com/">Fotogrph</a>
-            </div>
-    </div></div><!-- page --><!-- page2 -->
-</body>
-</html>

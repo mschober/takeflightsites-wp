@@ -181,10 +181,6 @@ a:hover {
     padding: 1em 0 0 0;
 }
 
-#content .left-padded {
-    padding: 0 0 0 1em;
-}
-
 
 p.postmeta {
     color: #6C6C6C;
@@ -263,4 +259,8 @@ img.right {
     font-size: .8em;
     text-transform: uppercase;
     text-align: center;
+}
+
+.left-padded {
+    padding: 0 0 0 2em;
 }
